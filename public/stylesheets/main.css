@@ -52,12 +52,18 @@
     color: #375b9a;
 }
 
-.inline-help , .close-help ,.moveDown ,.moveUp,.remove-field , .add-field{
+.inline-help,
+.close-help,
+.moveDown,
+.moveUp,
+.remove-field ,
+.add-field {
 	background:none;
 	border:0;
 	padding:0px;
 	width:24px; 
 	text-align:center;
+	vertical-align:middle;
 }
 .help-text {
     background:#d9edf7;
