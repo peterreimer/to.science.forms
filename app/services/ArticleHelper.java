@@ -213,8 +213,9 @@ public class ArticleHelper {
 
 	public static LinkedHashMap<String, String> getPersonLookupEndpoints() {
 		LinkedHashMap<String, String> map = new LinkedHashMap<>();
-		map.put("https://lobid.org/person", "GND");
-		map.put("/tools/zettel/orcidAutocomplete", "ORCID");
+		map.put("", "freie Eingabe");
+		map.put("https://lobid.org/person", "in der GND suchen");
+		map.put("/tools/zettel/orcidAutocomplete", "in ORCID suchen");
 		return map;
 	}
 
